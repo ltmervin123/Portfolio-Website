@@ -110,14 +110,12 @@ span{
 } */
 
 /* General styling */
-html {
-  margin: 0px;
-}
 
 body {
   margin: 0;
-  background-color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  font-family: sans-serif;
+  color: rgb(37, 36, 36);
 }
 
 /* Navigation bar styling */
@@ -128,6 +126,7 @@ body {
   display: flex;
   padding: 10px;
   align-items: center;
+  font-family: sans-serif;
 }
 
 #logo-container {
@@ -138,6 +137,7 @@ body {
 
 #logo {
   width: 100px;
+  filter: grayscale(100%) brightness(50%);
 }
 
 .navigation {
@@ -151,13 +151,14 @@ body {
 .nav {
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: rgb(37, 36, 36);
   transition: 0.5s;
   padding: 10px;
   border: none;
   border-radius: 10px;
-  font-size: 1.5em;
+  font-size: 18px;
   margin-left: 10px;
+  font-family: sans-serif;
 }
 
 .nav:hover {
@@ -168,58 +169,103 @@ body {
 /* Content styling */
 #content {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #14142b;
 }
 
 .text-container {
   flex: 1;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
   color: white;
-  text-align: center;
-  padding: 20px;
+
+  /* text-align: center; */
 }
 
 .text {
-  font-size: 2em;
+  position: relative;
+  left: 10%;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .profile-container {
   width: 50%;
-  height: 100;
+  height: 100%;
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 #profile {
-  width: auto;
-  z-index: -1;
+  max-width: 500px;
+  max-height: 500px;
+  background-color: rgb(228, 222, 222);
+  border-radius: 30px;
 }
 
 .social-media {
-  text-align: center;
-  color: whitesmoke;
-  margin-top: 20px;
+  position: relative;
+  left: 20%;
+  color: #1a1a1a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
+#button {
+  position: relative;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  border-radius: 15px;
+  background-color: black;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+  color: whitesmoke;
+}
+
+#button:hover {
+  width: 110px;
+  height: 55px;
+  font-size: 18px;
+  background-color: rgb(65, 65, 65);
+}
 .social-media img {
   margin: 10px;
 }
 
+.social-icon {
+  transition: 0.5s;
+}
+
+.social-icon:hover {
+  width: 60px;
+  height: 60px;
+}
+
 /* Footer styling */
 #footer {
+  position: relative;
+  top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
   height: 5vh;
   width: 100vw;
 }
@@ -255,9 +301,6 @@ body {
 
   .text {
     font-size: 1.5em;
-  }
-
-  .profile-container {
   }
 
   .social-media h2,

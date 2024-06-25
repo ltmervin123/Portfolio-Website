@@ -1,101 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="logo_final.png" sizes="10x10" type="image/png">
 	<link rel="stylesheet" href="home.css">
 	<title>Home</title>
+
 </head>
 
-<body >
-
-	<!-- Navigation -->
-
-	<!-- <table id="navigation">
-		<tr id="navigation-row">
-			<td style="width:20%">
-				<img src="logo_final.png" width="50%" style="margin-left:50%;">
-			</td>
-			<td style="width:20%;"></td>
-			<td style="width:16%;">
-				<a href="#"
-					style="font-family: arial; color: black; font-size:25px; font-weight: bold; text-decoration: none;">
-					w
-				</a>
-			</td>
-			<td style="width:16%;">
-				<a href="about.html"
-					style="font-family: arial; color: black; font-size:25px; font-weight: bold; text-decoration: none;">
-					About
-				</a>
-			</td>
-			<td style="width:16%;">
-				<a href="gallery.html"
-					style="font-family: arial; color: black; font-size:25px; font-weight: bold; text-decoration: none;">
-					Gallery
-				</a>
-			</td>
-		</tr>
-	</table> -->
-
+<body>
 	<div id="navigation-container">
 		<div id="logo-container">
 			<img src="logo_final.png" id="logo">
 		</div>
-		
+
 		<div class="navigation">
 			<div>
-			<a href="#">Home</a>
+				<a href="#" title="Home" class="nav">Home</a>
 			</div>
 			<div>
-			<a href="#">About</a>	
+				<a href="#" title="About" class="nav">About</a>
 			</div>
-			<div>	
-			<a href="#">Gallery</a>
+			<div>
+				<a href="#" title="Gallery" class="nav">Gallery</a>
 			</div>
 		</div>
 	</div>
 
-	<!--Content-->
-	<table style="width: 100%; height: 70%;">
-
-
-		<tr style="height: 100%;">
-			<td style="width: 10%;"></td>
-			<!--Introduction-->
-			<td style="width: 40%;">
-				<h1
-					style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: bold;">
-					Hi, I'm <span style="color:red">Alvin</span>
-				</h1>
-
-				<h2 style="color:white; font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: bold;">
-
-					I'M A WEB DEVELOPER
-
+	<div id="content">
+		<div class="text-container">
+			<div class="text">
+				<h2>
+					HI IM <span>ALVIN</span> A WEB DEVELOPER
 				</h2>
-
-				<!-- Social Media -->
-				<h2
-					style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: bold;">
-
-
-					Fallow Me On <br>
-					<a href="https://www.instagram.com/alvynq/" target="_blank"><img src="icons8-instagram-logo-48.png"
-							title="Instagram Profile"></a>
-					<a href="https://www.facebook.com/alvin.sangco.10" target="_blank"><img src="icons8-fb-48.png"
-							title="Facebook Profile"></a>
-					<a href="https://www.facebook.com/messages/t/100015779700077" target="_blank"><img
-							src="icons8-facebook-messenger-48.png" title="Messenger Profile"></a>
-
-				</h2>
-				<p style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: bold;">
-					Service Offer
-				</p>
-
-
-				<ul
-					style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold;">
+			</div>
+			<div class="social-media">
+				<h2>Fallow Me On </h2>
+				<a href="https://www.instagram.com/alvynq/" target="_blank"><img src="icons8-instagram-logo-48.png"
+						title="Instagram Profile"></a>
+				<a href="https://www.facebook.com/alvin.sangco.10" target="_blank"><img src="icons8-fb-48.png"
+						title="Facebook Profile"></a>
+				<a href="https://www.facebook.com/messages/t/100015779700077" target="_blank"><img
+						src="icons8-facebook-messenger-48.png" title="Messenger Profile"></a>
+				<h2>Service </h2>
+				<ul>
 					<li><b>(Front End) HTML, CSS, JavaScript</b></li>
 					<br>
 					<li><b>(Back End) Java, Springboot</b></li>
@@ -104,33 +54,17 @@
 					<br>
 					<li><b>(Version Control) Git and Github</b></li>
 				</ul>
+			</div>
+		</div>
+		<div class="profile-container">
+			<img src="profile.png" alt="" id="profile">
+		</div>
+	</div>
+	<div id="footer">
+		<p>&copy; 2024 Alvincent Sangco. All
+			rights reserved.</p>
+	</div>
 
-
-			</td width="50%">
-			<!--Image-->
-			<td style="padding: 10px;">
-
-				<img src="profile.png" alt="Error"
-					style="margin-left: 25%; background-color: white; border-radius: 15px	;">
-
-			</td>
-		</tr>
-	</table>
-
-	<!--footer-->
-	<table style="margin-top: 8%; width: 100%;">
-		<tr>
-			<td>
-				<hr>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p style="color: white; font-family: Arial, Helvetica, sans-serif;">&copy; 2024 Alvincent Sangco. All
-					rights reserved.</p>
-			</td>
-		</tr>
-	</table>
 </body>
 
 </html>

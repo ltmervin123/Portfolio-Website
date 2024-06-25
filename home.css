@@ -1,40 +1,110 @@
-#navigation-container{
-	width: 100%; 
+#navigation-container {
+	width: 100vw;
 	background-color: white;
-	height: 100px;	
+	height: 10vh;
 	display: flex;
+	padding: 10px;
 }
 
-body{
-	margin: 0px; 
-	background-color:black;
+body {
+	margin: 0px;
+	background-color: black;
 }
 
-#logo-container{
-	width:40%;
-	display:flex;
+#logo-container {
+	width: 40%;
+	display: flex;
 	justify-content: center;
 
 }
 
-#logo{
-	height:100%;
-	display:flex;
+#logo {
+	height: 100%;
+	display: flex;
 	justify-content: center;
 }
 
-.navigation{
-	width:60%;
-	display:flex;
-	justify-content:space-between;
-	padding:40px;
-	font-size:25px;
-	font-family: Arial;
-	font-weight:bold;
-	
+.navigation {
+	width: 60%;
+	display: flex;
+	justify-content: flex-end;	
+	margin-right: 10%;
+	text-align: center;
+	padding-top:2.5vh ;
 }
 
-a{
+.nav {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
 	text-decoration: none;
 	color: black;
-}	
+	transition: 0.5s;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.nav:hover {
+	font-size: 3em;
+	background-color: gainsboro;
+}
+
+#content {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+}
+
+.text-container{
+	width: 50%;
+	height: 100%;
+	display: block;
+	justify-content: center;
+	position: relative;
+}
+
+.text{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	padding-top: 6em;
+}
+
+.profile-container{
+	background-color: blanchedalmond;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.social-media{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: block;
+	justify-content: center;
+	color: whitesmoke;
+	padding-left: 23%;
+}
+
+#footer {
+	display: flex;
+	justify-content:center ;
+	background-color: whitesmoke	;
+	height: 5vh;
+	width: 100vw;
+}
+
+p{
+	color: black;
+	font-size: 1em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+	color: crimson;
+}

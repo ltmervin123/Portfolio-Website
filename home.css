@@ -1,4 +1,4 @@
-#navigation-container {
+/* #navigation-container {
 	width: 100vw;
 	background-color: white;
 	height: 10vh;
@@ -107,4 +107,175 @@ p{
 
 span{
 	color: crimson;
+} */
+
+/* General styling */
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation bar styling */
+#navigation-container {
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+#logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 100px;
+}
+
+.navigation {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.nav {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.nav:hover {
+  font-size: 2em;
+  background-color: gainsboro;
+}
+
+/* Content styling */
+#content {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.text {
+  font-size: 2em;
+}
+
+.profile-container {
+  width: 50%;
+  height: 100;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile {
+  width: auto;
+  z-index: -1;
+}
+
+.social-media {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.social-media img {
+  margin: 10px;
+}
+
+/* Footer styling */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 5vh;
+  width: 100vw;
+}
+
+#footer p {
+  color: black;
+  font-size: 1em;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .nav {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  #content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .text-container,
+  .profile-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .text {
+    font-size: 1.5em;
+  }
+
+  .profile-container {
+  }
+
+  .social-media h2,
+  .social-media ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-media li {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    width: 100vw;
+  }
 }

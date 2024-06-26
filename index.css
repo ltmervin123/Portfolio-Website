@@ -106,14 +106,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  clip-path: circle(25%);
+  background-color: beige;
 }
 
 #profile {
   max-width: 500px;
   max-height: 500px;
-  /* background-color: rgb(228, 222, 222);
-  border-radius: 30px; */
-  clip-path: circle(50%);
 }
 
 .social-media {

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* General styling */
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Montserrat";
+  color: rgb(37, 36, 36);
+}
+
+/* Navigation bar styling */
+#navigation-container {
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 100px;
+  filter: grayscale(100%) brightness(50%);
+}
+
+.navigation {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.nav {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(37, 36, 36);
+  transition: 0.5s;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: "Montserrat";
+}
+
+.navigation a:hover,
+.navigation a#active{
+  background-color: beige;
+}
+
+.nav:hover {
+  font-size: 2em;
+  background-color: gainsboro;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container{
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: antiquewhite;
+    width: 50%;
+    height: 100%;
+}
+
+.text{
+   
+}

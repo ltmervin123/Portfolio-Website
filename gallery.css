@@ -1,6 +1,94 @@
-#navigation{
-	width: 100%; 
-	background-color: white;
-	height: 20%;
-	
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* General styling */
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Montserrat";
+  color: rgb(37, 36, 36);
 }
+
+/* Navigation bar styling */
+#navigation-container {
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 100px;
+  filter: grayscale(100%) brightness(50%);
+}
+
+.navigation {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.nav {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(37, 36, 36);
+  transition: 0.5s;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: "Montserrat";
+}
+
+.nav:hover {
+  font-size: 2em;
+  background-color: gainsboro;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+.image-container{
+	width: 90vw;
+	height: 90vh;
+	background-color: rgb(243, 243, 243);
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px;
+  }
+
+  .content-container{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+
+  img{
+	width: 300px;
+	margin: 10px;
+	border-radius: 10px;
+  }
+  .g1{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+  }

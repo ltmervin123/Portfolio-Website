@@ -1,103 +1,64 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="icon" href="logo_final.png" sizes="16x16" type="image/png">
-    <title>Gallery</title>
+<html lang="en">
 
-    <style>
-        .image{
-            margin-left: 10%;
-            margin-bottom: 15px ;
-        }
-    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo_final.png" sizes="10x10" type="image/png">
+    <link rel="stylesheet" href="gallery.css">
+    <title>About</title>
 </head>
 
-<body style="margin: 0px; background-color: black;" >
- 
+<body>
+
     <!-- Navigation -->
-    <table style="width:100; background-color:white;">
-        <tr>
-            <td style="width:20%;">
+    <div id="navigation-container">
+        <div id="logo-container">
+            <img src="image/logo_final.png" id="logo">
+        </div>
 
-                <img src="logo_final.png" style="width:50%; margin-left: 50%;">
+        <div class="navigation">
+            <div>
+                <a href="index.html" title="Home" class="nav">Home</a>
+            </div>
+            <div>
+                <a href="about.html" title="About" class="nav">About us</a>
+            </div>
+            <div>
+                <a href="gallery.html" title="Gallery" class="nav">Gallery</a>
+            </div>
+        </div>
+    </div>
 
-            </td>
-            <td style="width:20%;"></td>
-            <td style="width:16%;">
-                <a href="home.html"
-                    style="font-family: arial; color: black; font-size:25px; font-weight: bold; text-decoration: none;">
-                    Home
-                </a>
-            </td>
-            <td style="width:16%;">
-                <a href="about.html"
-                    style="font-family: arial; color: black; font-size:25px; font-weight: bold; text-decoration: none;">
-                    About
-                </a>
-            </td>
-            <td style="width:16%;">
-                <a href="gallery.html"
-                    style="font-family: arial; color: black; font-size:25px; font-weight: bold; text-decoration: none;">
-                    Gallery
-                </a>
-            </td>
-        </tr>
-    </table>
-    <!-- Content -->
-    <table style="width:100%;">
-        <tr>
-            <h1 style="color: white; text-align: center; font-size: 96px;">Gallery</h1>
-        </tr>
-    </table>
+    <!--Content -->
+    <div class="content-container">
+        <h1>Gallery</h1>
+        <div class="image-container">
 
-    <!-- Photos container -->
-    <table style="width: 100%;">
-        <!-- Front End Part -->
-        <tr>
-            <td style="width:33%;">
-              <img src="10.jpg" alt="" width="300px" class="image">
-            </td>
-            <td style="width:33%;">
-               <img src="11.jpg" alt="" width="300px" class="image">
-            </td>
-            <td style="width:33%;">
-                <img src="13.jpg" alt="" width="300px" class="image">
-            </td>
-        </tr>
+            <div class="g1">
+                <img src="image/11.jpg" alt="">
+                <img src="image/12.jpg" alt="">
+                <img src="image/13.jpg" alt="">
+                <img src="image/10.jpg" alt="">
+            </div>
 
+           <div class="g1">
+            <img src="image/1.png" alt="">
+            <img src="image/2.png" alt="">
+            <img src="image/3.png" alt="">
+            <img src="image/4.png" alt="">
+           </div>
+           <div class="g1">
+            <img src="image/5.png" alt="">
+            <img src="image/6.png" alt="">
+            <img src="image/7.png" alt="">
+            <img src="image/8.png" alt="">
+           </div>
 
-        <tr style="width:100%;">
-            <td style="width:33%;">
-               <img src="1.png" alt="" width="80%" class="image">
-            </td>
-            <td style="width:33%;">
-               <img src="2.png" alt="" width="80%" class="image">
-            </td>
-            <td style="width:33%;">
-               <img src="5.png" alt="" width="80%" class="image">
-            </td>
-        </tr>
-
-        <tr style="width:100%;">
-            <td style="width:33%;">
-                <img src="3.png" alt="" width="80%" class="image">
-            </td>
-            <td style="width:33%;">
-               <img src="8.png" alt="" width="80%" class="image">
-            </td>
-            <td style="width:33%;"></td>
-        </tr>
-    </table>
-
-    <!--footer-->
-    <table>
-        <tr>
-            <hr>
-           
-                <p style="color: white;">&copy; 2024 Alvincent Sangco. All rights reserved.</p>
-          
-        </tr>
-    </table>
+        </div>
+    </div>
 </body>
+
 </html>

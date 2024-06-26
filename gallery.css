@@ -30,6 +30,11 @@ body {
   filter: grayscale(100%) brightness(50%);
 }
 
+.navigation a:hover,
+.navigation a#active{
+  background-color: beige;
+}
+
 .navigation {
   flex: 2;
   display: flex;

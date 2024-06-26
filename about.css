@@ -92,4 +92,9 @@ h1{
   padding-left: 13%;
 }
 
+.navigation a:hover,
+.navigation a#active{
+  background-color: beige;
+}
+
 

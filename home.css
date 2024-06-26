@@ -51,6 +51,11 @@ body {
   font-family: "Montserrat";
 }
 
+.navigation a:hover,
+.navigation a#active{
+  background-color: beige;
+}
+
 .nav:hover {
   font-size: 2em;
   background-color: gainsboro;
@@ -106,8 +111,9 @@ body {
 #profile {
   max-width: 500px;
   max-height: 500px;
-  background-color: rgb(228, 222, 222);
-  border-radius: 30px;
+  /* background-color: rgb(228, 222, 222);
+  border-radius: 30px; */
+  clip-path: circle(50%);
 }
 
 .social-media {

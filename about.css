@@ -93,8 +93,17 @@ h1{
 }
 
 .navigation a:hover,
-.navigation a#active{
+.navigation a#active{ 
   background-color: beige;
 }
 
+.footer{  
+  width: 100vw;
+  height: 5vh;
+  background-color: rgba(26, 25, 25, 0.945);
+  color: white;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
 

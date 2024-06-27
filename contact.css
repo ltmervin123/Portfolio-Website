@@ -139,6 +139,7 @@ span {
   border: none;
   background-color: rgba(201, 201, 201, 0.842);
   margin-bottom: 5px;
+  padding-left: 10px;
 }
 
 textarea {
@@ -176,4 +177,14 @@ textarea:focus {
 
 .form h2 {
   margin-top: 20px;
+}
+
+.footer{  
+  width: 100vw;
+  height: 5vh;
+  background-color: rgba(26, 25, 25, 0.945);
+  color: white;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
 }

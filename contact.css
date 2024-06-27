@@ -77,8 +77,6 @@ body {
   align-items: center;
 }
 
-.text {
-}
 
 .email-container {
   display: flex;
@@ -116,18 +114,20 @@ span {
 }
 
 .form-container {
-  width: 75%;
-  height: 100%;
-}
-
-.form {
   width: 50%;
   height: 90%;
+}
+
+.form{
+  width: 500px;
+  height: 650px;
   border: none;
   border-radius: 20px;
   background-color: whitesmoke;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  padding-left: 15%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .form input {

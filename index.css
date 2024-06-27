@@ -10,7 +10,7 @@ body {
 
 /* Navigation bar styling */
 #navigation-container {
-  width: 100%;
+  width: 100vw;
   background-color: white;
   height: 10vh;
   display: flex;
@@ -63,7 +63,7 @@ body {
 
 /* Content styling */
 #content {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -80,6 +80,7 @@ body {
   justify-content: center;
   flex-direction: column;
   color: white;
+  padding-left: 10%;
 }
 
 .text-container h2{
@@ -90,8 +91,6 @@ body {
 
 .text {
   position: relative;
-  left: 10%;
-  text-align: center;
   font-size: 45px;
   font-weight: bold;
   color: #1a1a1a;
@@ -99,8 +98,8 @@ body {
 }
 
 .profile-container {
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: 100vh;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -116,8 +115,6 @@ body {
 }
 
 .social-media {
-  position: relative;
-  left: 20%;
   color: #1a1a1a;
   font-family: "Montserrat";
   font-weight: bold;

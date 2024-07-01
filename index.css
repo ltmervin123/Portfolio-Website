@@ -10,13 +10,12 @@ body {
 
 /* Navigation bar styling */
 #navigation-container {
-  width: 100vw;
+  width: 100%;
   background-color: white;
   height: 10vh;
   display: flex;
   padding: 10px;
   align-items: center;
-  font-family: sans-serif;
 }
 
 #logo-container {
@@ -28,6 +27,11 @@ body {
 #logo {
   width: 100px;
   filter: grayscale(100%) brightness(50%);
+}
+
+.navigation a:hover,
+.navigation a#active {
+  background-color: beige;
 }
 
 .navigation {
@@ -49,11 +53,6 @@ body {
   font-size: 18px;
   margin-left: 10px;
   font-family: "Montserrat";
-}
-
-.navigation a:hover,
-.navigation a#active{
-  background-color: beige;
 }
 
 .nav:hover {
@@ -83,7 +82,7 @@ body {
   padding-left: 10%;
 }
 
-.text-container h2{
+.text-container h2 {
   font-family: "Montserrat";
 }
 
@@ -142,6 +141,7 @@ body {
   font-size: 18px;
   background-color: rgb(65, 65, 65);
 }
+
 .social-media img {
   margin: 10px;
 }
@@ -155,7 +155,7 @@ body {
   height: 60px;
 }
 
-.footer{
+.footer {
   width: 100vw;
   height: 5vh;
   background-color: rgba(26, 25, 25, 0.945);
@@ -170,10 +170,7 @@ body {
 
 /* Responsive styling */
 @media (max-width: 768px) {
-  .navigation {
-    flex-direction: column;
-    margin-right: 0;
-  }
+
 
   .nav {
     margin-left: 0;
@@ -193,7 +190,12 @@ body {
   }
 
   .text {
-    font-size: 1.5em;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .social-media {
+    margin: auto;
   }
 
   .social-media h2,
@@ -211,5 +213,12 @@ body {
     margin-bottom: 10px;
   }
 
-  
+}
+
+@media (max-width:1325px){
+
+  .text {
+    font-size: 1.7rem;
+    text-align: center;
+  }
 }
